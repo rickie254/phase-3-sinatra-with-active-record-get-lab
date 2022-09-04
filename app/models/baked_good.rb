@@ -1,3 +1,3 @@
 class BakedGood < ActiveRecord::Base
-  # add association macro here
-end
+  belongs_to :bakery
+ end
